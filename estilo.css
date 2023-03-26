@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 50%;
+    margin: 50px auto 50px auto;
+    padding: 15px;
+    background-color: rgb(121, 156, 252);
+}
+
+h1 {
+    padding-top: 20px;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.agregarTarea {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+}
+
+input {
+    width: 80%;
+    height: 50px;
+    padding: 10px;
+    border: none;
+}
+
+.btn-add {
+    border: none;
+    background-color: rgb(77, 243, 174);
+    color: rgb(0, 0, 0);
+    height: 50px;
+    width: 50px;
+    font-size: 2rem;
+}
+
+.li-container {
+    z-index: -1;
+}
+
+.empty {
+    margin-top: 30px;
+}
+
+li {
+    list-style: none;
+    background-color: rgb(147, 254, 253);
+    display: flex;
+    border-radius: 10px;
+    height: 50px;
+    margin-bottom: 10px;
+}
+
+li p {
+    width: 95%;
+    word-wrap: break-word;
+    padding: 10px;
+}
+
+.prioridadBtn,
+.estadoBtn {
+    height: 50px;
+    width: 150px;
+}
+
+.btn-delete {
+    background-color: rgb(255, 70, 70);
+    color: rgb(255, 255, 255);
+    border-radius: 0 10px 10px 0;
+    font-weight: 800;
+    width: 5%;
+    border: none;
+
+}
+
+.btn-delete:hover {
+    background-color: rgb(183, 0, 0);
+    cursor: pointer;
+}
+
+
+.prioridadBtn button,
+.estadoBtn button {
+    z-index: 1;
+    width: 100%;
+}
+
+.btnCritico,
+.btnAlto,
+.btnMedio,
+.btnStuck {
+    color: white;
+}
+
+.btnCritico {
+    background-color: rgb(206, 96, 0);
+}
+
+.btnAlto {
+    background-color: red;
+}
+
+.btnMedio {
+    background-color: blue;
+}
+
+.btnBajo {
+    background-color: lightskyblue;
+}
+
+.btnStuck {
+    background-color: red;
+}
+
+.btnWorking {
+    background-color: orange;
+}
+
+.btnDone {
+    background-color: rgb(161, 247, 161);
+}
