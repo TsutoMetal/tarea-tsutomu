@@ -46,6 +46,16 @@ input {
     font-size: 2rem;
 }
 
+.encabezado {
+    justify-content: right;
+    display: none;
+}
+
+.encabezado p {
+    height: 30px;
+    width: 100px;
+}
+
 .li-container {
     z-index: -1;
 }

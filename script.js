@@ -2,7 +2,7 @@ const input = document.querySelector("input");
 const addBtn = document.querySelector(".btn-add");
 const ul = document.querySelector("ul");
 const empty = document.querySelector(".empty");
-
+const encabezado = document.querySelector(".encabezado");
 
 addBtn.addEventListener("click", e => {
     e.preventDefault();
@@ -24,6 +24,7 @@ addBtn.addEventListener("click", e => {
         li.appendChild(addDeleteBtn());
         input.value = "";
         empty.style.display = "none";
+        encabezado.style.display = "flex";
     }
 });
 
